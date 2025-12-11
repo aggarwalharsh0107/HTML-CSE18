@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    gap: 10px;
+    background-color: rgb(23, 72, 116);
+
+}
+
+.box {
+    background-color: rgb(47 , 189,31 );
+    height: 200px;
+}
+
+@media screen and (max-width: 460px){
+    main{
+        background-color: #f0f;
+        display: grid;
+        grid-template-columns: repeat(1,1fr );
+        gap: 10px;
+
+    }
+}
+
+@media screen {
+    
+}
+    

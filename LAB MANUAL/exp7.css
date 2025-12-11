@@ -1,0 +1,44 @@
+header {
+    display: block;
+    background: lightgray;
+    padding: 10px;
+    text-align: center;
+}
+
+span {
+    display: inline;
+    color: red;
+}
+
+.block-menu ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.block-menu li {
+    margin-right: 10px;
+
+}
+
+.block-menu a {
+    text-decoration: none;
+    background-color: lightblue;
+    padding: 10px;
+}
+
+.float-menu ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.float-menu li {
+    margin-right: 10px;
+    background-color: lightgreen;
+}
+
+.float-menu a {
+    text-decoration: none;
+    padding: 5px;
+}
